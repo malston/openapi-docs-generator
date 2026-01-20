@@ -1,3 +1,5 @@
+<!-- ABOUTME: Agent that analyzes Go API code to generate OpenAPI 3.0 specifications. -->
+<!-- ABOUTME: Supports Go stdlib net/http and Gin frameworks, serves results via Swagger UI. -->
 ---
 name: openapi-generator
 description: Use this agent when generating OpenAPI documentation from Go code. Examples:
@@ -52,7 +54,7 @@ Scan imports to determine framework:
 
 For each handler, extract:
 - **Request body**: Look for `json.NewDecoder(r.Body).Decode(&var)` or `c.ShouldBindJSON(&var)`
-- **Response body**: Look for `json.Encode(w, data)` or `c.JSON(status, data)`
+- **Response body**: Look for `json.NewEncoder(w).Encode(data)` or `c.JSON(status, data)`
 - **Path parameters**: Extract from route path (`:id`, `{id}`)
 - **Query parameters**: Look for `r.URL.Query().Get()` or `c.Query()`
 - **Status codes**: Look for `w.WriteHeader()` or `c.JSON(status, ...)`
