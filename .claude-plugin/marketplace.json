@@ -1,6 +1,6 @@
 {
   "name": "openapi-dev",
-  "description": "Development marketplace for openapi skill",
+  "description": "Development marketplace for openapi plugin",
   "owner": {
     "name": "Mark Alston",
     "email": "marktalston@gmail.com"
