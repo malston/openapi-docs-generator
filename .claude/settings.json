@@ -1,0 +1,9 @@
+{
+  "enabledPlugins": {
+    "commit-commands@claude-code-plugins": true,
+    "elements-of-style@superpowers-marketplace": true,
+    "hookify@claude-code-plugins": true,
+    "plugin-dev@claude-code-plugins": true,
+    "superpowers@superpowers-marketplace": true
+  }
+}
