@@ -1,4 +1,4 @@
-# OpenAPI Skill
+# OpenAPI Docs Generator Agent & Claude Plugin
 
 A Claude Code plugin that generates OpenAPI/Swagger documentation from Go API code.
 
@@ -12,7 +12,7 @@ A Claude Code plugin that generates OpenAPI/Swagger documentation from Go API co
 ## Installation
 
 ```bash
-claude plugin marketplace add /path/to/openapi-skill
+claude plugin marketplace add /path/to/openapi-docs-generator
 claude plugin install openapi@openapi-dev
 ```
 
