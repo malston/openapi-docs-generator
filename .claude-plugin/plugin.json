@@ -1,0 +1,10 @@
+{
+  "name": "openapi-skill",
+  "version": "1.0.0",
+  "description": "Generate OpenAPI/Swagger documentation from Go API code",
+  "author": {
+    "name": "Mark Alston"
+  },
+  "license": "MIT",
+  "keywords": ["openapi", "swagger", "go", "api", "documentation"]
+}
